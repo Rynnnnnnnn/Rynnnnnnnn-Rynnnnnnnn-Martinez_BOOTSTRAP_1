@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dream Job</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap 5 JS (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+  
+      background-image: url('galaxy.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .nav-link:hover, .dropdown-item:hover {
+            color: #008080 !important;
+    }
+    .skills-section {
+      background: #f8f9fa;
+      padding: 70px 0;
+    }
+    .skill-card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .skill-card:hover {
+      transform: translateY(-10px);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Vision
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="dreamJob.html">Dream Job</a></li>
+              <li><a class="dropdown-item" href="plans.html">Plans</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="secret.html">Secret</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section text-center">
+    <div class="container-fluid py-5 text-white text-center" style="background-color: #000;">
+      <h1 style="font-size: 3rem; font-weight: bold;">My Dream Job</h1>
+      <p class="lead">Becoming a <strong>Software Engineer</strong> is my goal. I want to create something innovative but enjoyable in this world. </p>
+      <a href="#skills" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <div class="container-fluid py-5" style="background-color: #ffffff;">
+      <h2 class="text-center">Skills Required</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="skill-card text-center">
+            <h3>Programming</h3>
+            <p>Mastering languages like Python, JavaScript, and Java to build innovative applications.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="skill-card text-center">
+            <h3>Problem Solving</h3>
+            <p>Developing the ability to break down complex problems into manageable solutions.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="skill-card text-center">
+            <h3>Creativity</h3>
+            <p>Making projects requires your own passion and creativity, with this you can create a one of a kind product.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: white;">About My Dream</h2>
+    <div class="row">
+      <div class="text-center col-md-6">
+        <img src="programmer.jpg" class="img-fluid rounded w-700" style="height: 500px;">
+      </div>
+      <style>
+         .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 63%;
+    margin: 0 auto;
+    }
+      </style>
+      <div class="col-md-6">
+        <p class="lead" style="color: white; font-size: 23px;" >Ever since I was at senior high school, I've been fascinated to playing games and how modern technology is made. And now? my dream is to become a <strong>Software Engineer/Game Dev/Frontend Dev</strong> and work on new projects that i can enjoy while developing our technological world where innovation is a must.</p>
+        <p style="color: white; font-size: 20px;">I am currently a college student that is willing to learn programming languages, algorithms, and software development practices to prepare myself for this exciting career path. With this for sure i can make my career path much more enjoyable than being a must.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
